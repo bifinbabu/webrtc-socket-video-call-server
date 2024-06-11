@@ -23,7 +23,7 @@ io.on("connection", (socket: Socket) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("Welcome to socket server");
+  res.send("Welcome to socket server!");
 });
 
 server.listen(3000, () => {
